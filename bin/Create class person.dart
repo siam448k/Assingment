@@ -20,7 +20,7 @@ class Person implements Role {
 }
 
 void main() {
-  Person person = Person('Morsalin', 22, 'Narsingdi 152/2',);
+  Person person = Person('Morsalin Sarker', 22, 'Narsingdi 152/2',);
   person.displayRole();
   print('Name: ${person.getName}, Age: ${person.getAge}, Address: ${person.getAddress}');
 }
