@@ -1,28 +1,9 @@
 
-abstract class Role {
-  void displayRole();
-}
-
-
-class Student implements Role {
-  @override
-  void displayRole() {
-    print("I am a Student.");
-  }
-}
-
-
-class Teacher implements Role {
-  @override
-  void displayRole() {
-    print("I am a Teacher.");
-  }
-}
-
 void main() {
-  Role student = Student();
-  Role teacher = Teacher();
+  triangle(10, 5);
+}
 
-  student.displayRole();
-  teacher.displayRole();
+void triangle(double base, double height) {
+  double area = 0.5 * base * height;
+  print('The area of the triangle is: $area');
 }
